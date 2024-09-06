@@ -1,0 +1,46 @@
+button.highlight-button {
+	customBackgroundPicture: url(/RESOURCES/Images/library/highlight-button.svg);
+	focusable: false;
+	imageHugsTitle: false;
+	style: custom;
+	iconFrames: 4;	
+	display: true;
+}
+
+@media (prefers-color-scheme: light){
+	input.normal  {
+		stroke: automatic;	
+		fill: automatic;	
+	}
+	text.normal  {
+		stroke: automatic;	
+		fill: automatic;	
+	}
+	rectangle.normal  {
+		stroke: automatic;
+		fill: automatic;		
+	}
+	line.normal  {
+		stroke: automatic;
+		fill: automatic;		
+	}
+}
+
+@media (prefers-color-scheme: dark){
+	text.normal  {
+		stroke: automatic;	
+		fill: automatic;	
+	}
+	input.normal {
+		stroke: automatic;
+		fill: automatic;
+	}	
+	rectangle.normal  {
+		stroke: automatic;
+		fill: automatic;		
+	}
+	line.normal  {
+		stroke: automatic;
+		fill: automatic;		
+	}
+}
