@@ -6,7 +6,7 @@
 * [SVG based highlight buttons](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/highlight_button_to_svg.4dm) [^hb]
 * [replace _O_ENABLE_BUTTON](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/macro_replace_enable_button.4dm) [^eb]
 * [replace _O_OBJECT SET COLOR](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/macro_replace_object_set_color.4dm) [^sc]
-* [remove on close box form event](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/remove_close_box_event.4dm)
+* [unselect on close box form event](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/remove_close_box_event.4dm)
 
 > for instance, after migrating from `Open window` to `Open form window`, you might want to unselect this form event so that the window naturally closes when the user clicks the close button. the code does not check whether the event is implemented in the form method. the assumption is that the event is not used in legacy databases that uses `Open window`.
 
