@@ -1,7 +1,7 @@
 //%attributes = {"invisible":true}
 /*
 
-remove on close box form event
+unselect on close box form event
 
 */
 
