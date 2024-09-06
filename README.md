@@ -3,7 +3,7 @@
 * [convert legacy scrollable area to listbox](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/scrollable_area_to_listbox.4dm) [^satolb]
 * [convert legacy grouped radio buttons](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/add_radio_group.4dm) [^rbg]
 * [make b/w form objects dark mode aware](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/set_automatic_fill_and_stroke.4dm) [^bwauto]
-* SVG based highlight buttons [^hb]
+* [SVG based highlight buttons](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/highlight_button_to_svg.4dm) [^hb]
 
 ---
 
