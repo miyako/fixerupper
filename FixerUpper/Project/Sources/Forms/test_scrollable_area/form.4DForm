@@ -1,0 +1,311 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Ar_TextPreCode": {
+					"type": "listbox",
+					"top": 27,
+					"left": 11,
+					"width": 65,
+					"height": 270,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#DFFFFF",
+					"fontFamily": "Helvetica",
+					"fontSize": 14,
+					"borderStyle": "none",
+					"events": [
+						"onLoad"
+					],
+					"columns": [
+						{
+							"name": "Ar_TextPreCode_Column1",
+							"dataSource": "Ar_TextPreCode",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DFFFFF",
+							"alternateFill": "#DFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"fontFamily": "Helvetica",
+							"fontSize": 14,
+							"events": [
+								"onLoad"
+							],
+							"header": {
+								"name": "Header1",
+								"text": "Header1",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "#000000",
+								"fill": "#DFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							}
+						}
+					]
+				},
+				"Ar_TextClientCode": {
+					"type": "listbox",
+					"top": 27,
+					"left": 77,
+					"width": 75,
+					"height": 270,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#DFFFFF",
+					"fontFamily": "Helvetica",
+					"fontSize": 14,
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Ar_TextClientCode_Column1",
+							"dataSource": "Ar_TextClientCode",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DFFFFF",
+							"alternateFill": "#DFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"fontFamily": "Helvetica",
+							"fontSize": 14,
+							"events": [
+								"onLoad",
+								"onClick"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Header2",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "#000000",
+								"fill": "#DFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							}
+						}
+					]
+				},
+				"Ar_TextChangedCode": {
+					"type": "listbox",
+					"top": 27,
+					"left": 153,
+					"width": 65,
+					"height": 270,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"scrollbarVertical": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#DFFFFF",
+					"fontFamily": "Helvetica",
+					"fontSize": 14,
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Ar_TextChangedCode_Column1",
+							"dataSource": "Ar_TextChangedCode",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DFFFFF",
+							"alternateFill": "#DFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"fontFamily": "Helvetica",
+							"fontSize": 14,
+							"events": [
+								"onLoad",
+								"onClick"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							},
+							"footer": {
+								"name": "Footer3",
+								"stroke": "#000000",
+								"fill": "#DFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							}
+						}
+					]
+				},
+				"Ar_TextName": {
+					"type": "listbox",
+					"top": 27,
+					"left": 217,
+					"width": 343,
+					"height": 270,
+					"resizingMode": "legacy",
+					"focusable": false,
+					"movableRows": false,
+					"showHeaders": false,
+					"selectionMode": "single",
+					"scrollbarHorizontal": "hidden",
+					"horizontalLineStroke": "transparent",
+					"verticalLineStroke": "transparent",
+					"stroke": "#000000",
+					"fill": "#DFFFFF",
+					"fontFamily": "Helvetica",
+					"fontSize": 14,
+					"borderStyle": "none",
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"columns": [
+						{
+							"name": "Ar_TextName_Column1",
+							"dataSource": "Ar_TextName",
+							"width": 10,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "#000000",
+							"fill": "#DFFFFF",
+							"alternateFill": "#DFFFFF",
+							"textAlign": "left",
+							"verticalAlign": "automatic",
+							"fontFamily": "Helvetica",
+							"fontSize": 14,
+							"events": [
+								"onLoad",
+								"onClick"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Header4",
+								"stroke": "#000000",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							},
+							"footer": {
+								"name": "Footer4",
+								"stroke": "#000000",
+								"fill": "#DFFFFF",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic",
+								"fontFamily": "Helvetica",
+								"fontSize": 14
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 16,
+	"editor": {
+		"groups": {
+			"グループ1": [
+				"Ar_TextPreCode",
+				"Ar_TextClientCode",
+				"Ar_TextChangedCode",
+				"Ar_TextName"
+			]
+		},
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
