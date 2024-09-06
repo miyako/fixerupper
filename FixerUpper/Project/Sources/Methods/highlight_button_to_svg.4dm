@@ -15,7 +15,6 @@ $files:=Folder:C1567(fk logs folder:K87:17)\
 .orderBy("name desc")
 
 If ($files.length#0)
-	
 	$logFile:=$files[0]
 	$log:=JSON Parse:C1218($logFile.getText(); Is object:K8:27)
 	$messages:=[\
