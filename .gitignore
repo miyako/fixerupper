@@ -1,0 +1,4 @@
+FixerUpper/Data/*
+**/formAttributes.json
+**/methodAttributes.json
+FixerUpper/userPreferences.*
