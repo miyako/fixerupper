@@ -1,7 +1,7 @@
 //%attributes = {"invisible":true}
 /*
 
-make lagacy form objects dark mode aware
+make b/w form objects dark mode aware
 
 targets: button, line, rectangle, text, input
 require: /SOURCES/styleSheets.css
