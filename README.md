@@ -12,7 +12,7 @@
 
 * [unset_fixed window size](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/unset-fixed-window-size.4dm) [^fixed]
 
-> after migrating from binary to project, you may want to allow modern resizing for forms that had the legacy "with constraints" property.
+> after migrating from binary to project, you may want to allow modern resizing for forms that lost the legacy "with constraints" property. **Note**: This method applies to all forms. For a more granular implementation you may want to cross match against the conversion log.
 
 * [remove old fonts](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/remove-old-fonts.4dm)
 
