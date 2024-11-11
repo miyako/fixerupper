@@ -13,6 +13,10 @@
 * [unset_fixed window size](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/unset-fixed-window-size.4dm) [^fixed]
 
 > for instance, after migrating from binary to project, you may want to allow modern resizing for forms that had the legacy "with constraints" property.
+
+* [remove old fonts](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/remove-old-fonts.4dm)
+
+> for instance, after activating DirectWrite rendering on Windows, bitmap fonts may be trimmed on the edge.
   
 [^satolb]: [4D Forums, 14 Aug 2024](https://discuss.4d.com/t/tip-replace-legacy-connected-scrollable-areas/32072)
 [^rbg]: [4D Forums, 9 Aug 2024](https://discuss.4d.com/t/tip-add-radio-group-to-converted-radio-buttons/32035)
