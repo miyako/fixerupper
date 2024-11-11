@@ -10,9 +10,14 @@
 
 > for instance, after migrating from `Open window` to `Open form window`, you might want to unselect this form event so that the window naturally closes when the user clicks the close button. the code does not check whether the event is implemented in the form method. the assumption is that the event is not used in legacy databases that uses `Open window`.
 
+* [unset_fixed window size](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/unset-fixed-window-size.4dm) [^fixed]
+
+> for instance, after migrating from binary to project, you may want to allow modern resizing for forms that had the legacy "with constraints" property.
+  
 [^satolb]: [4D Forums, 14 Aug 2024](https://discuss.4d.com/t/tip-replace-legacy-connected-scrollable-areas/32072)
 [^rbg]: [4D Forums, 9 Aug 2024](https://discuss.4d.com/t/tip-add-radio-group-to-converted-radio-buttons/32035)
 [^bwauto]: [4D Forums, 9 Aug 2024](https://discuss.4d.com/t/tip-support-dark-mode-in-legacy-forms/32033)
 [^hb]: [4D Forums, 11 Jul 2024](https://discuss.4d.com/t/replace-highlight-buttons-with-custom-svg-buttons/31719)
 [^eb]: [4D Forums, 7 Aug 2024](https://discuss.4d.com/t/tip-translate-o-enable-button/32020)
 [^sc]: [4D Forums, 30 Jul 2024](https://discuss.4d.com/t/tip-translate-o-object-set-color/31940)
+[^fixed]: see [Form properties in Design Reference](https://doc.4d.com/4Dv19/4D/19/Form-properties.300-5416670.en.html)
