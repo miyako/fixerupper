@@ -1,7 +1,7 @@
 //%attributes = {"invisible":true}
 /*
 
-make b/w form objects dark mode aware
+refactor highlight buttons and background offset buttons
 
 require: /LOGS/Conversion yyyy-MM-ddThh-mm-ss.json
 require: /SOURCES/styleSheets.css
