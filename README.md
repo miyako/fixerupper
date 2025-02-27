@@ -7,6 +7,7 @@
 * [replace _O_ENABLE_BUTTON](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/macro_replace_enable_button.4dm) [^eb]
 * [replace _O_OBJECT SET COLOR](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/macro_replace_object_set_color.4dm) [^sc]
 * [unselect on close box form event](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/remove_close_box_event.4dm)
+* [remove mandatory field attribute](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/set_mandatory.4dm) [^sm]
 
 > after migrating from `Open window` to `Open form window`, you might want to unselect this form event so that the window naturally closes when the user clicks the close button. the code does not check whether the event is implemented in the form method. the assumption is that the event is not used in legacy databases that uses `Open window`.
 
@@ -28,3 +29,4 @@
 [^sc]: [4D Forums, 30 Jul 2024](https://discuss.4d.com/t/tip-translate-o-object-set-color/31940)
 [^fixed]: see [Form properties in Design Reference](https://doc.4d.com/4Dv19/4D/19/Form-properties.300-5416670.en.html)
 [^pict]: [4D Forums, 17 Dec 2024](https://discuss.4d.com/t/tip-convert-pict-images-to-png/33546?u=keisuke_miyako)
+[^sm]: [4D Forums, 7 Jun, 2023](https://discuss.4d.com/t/field-mandatory/27736/4?u=keisuke_miyako)
