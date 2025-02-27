@@ -7,7 +7,6 @@
 * [replace _O_ENABLE_BUTTON](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/macro_replace_enable_button.4dm) [^eb]
 * [replace _O_OBJECT SET COLOR](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/macro_replace_object_set_color.4dm) [^sc]
 * [unselect on close box form event](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/remove_close_box_event.4dm)
-* [remove mandatory field attribute](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/set_mandatory.4dm) [^sm]
 
 > after migrating from `Open window` to `Open form window`, you might want to unselect this form event so that the window naturally closes when the user clicks the close button. the code does not check whether the event is implemented in the form method. the assumption is that the event is not used in legacy databases that uses `Open window`.
 
@@ -20,6 +19,8 @@
 > after activating DirectWrite rendering on Windows, bitmap fonts may be trimmed on the edge.
 
 * [convert PICT images to PNG](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/pict_to_png.4dm) [^pict]
+
+* [remove mandatory field attribute](https://github.com/miyako/fixerupper/blob/main/FixerUpper/Project/Sources/Methods/set_mandatory.4dm) [^sm]
   
 [^satolb]: [4D Forums, 14 Aug 2024](https://discuss.4d.com/t/tip-replace-legacy-connected-scrollable-areas/32072)
 [^rbg]: [4D Forums, 9 Aug 2024](https://discuss.4d.com/t/tip-add-radio-group-to-converted-radio-buttons/32035)
